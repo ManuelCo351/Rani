@@ -243,10 +243,10 @@
 
 .flip-card-back {
     background: linear-gradient(180deg, #ffffff 0%, var(--pink-light) 100%);
-    /* Pre-rotamos y separamos el plano trasero para evitar el efecto espejo */
-    transform: rotateY(180deg) translateZ(1px);
-    -webkit-transform: rotateY(180deg) translateZ(1px);
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
+        
 
         
 
@@ -595,13 +595,8 @@
     <section style="position: relative;">
         <h2 class="section-title">Tarjetas de Repaso Activo</h2>
         <p class="section-subtitle">Toca cada tarjeta para validar la teoría y descubrir la tasa de retorno de mis nalgas💛</p>
-        
-        <div class="flashcards-grid">
-            
-            <!-- TARJETA 1 -->
-            <div class="flip-card" onclick="toggleFlip(this)">
+                    <div class="flip-card" onclick="toggleFlip(this)">
                 <div class="flip-card-inner">
-                    <!-- Frente Académico -->
                     <div class="flip-card-front">
                         <span class="card-header">📊 Concepto 1 ✿ Interés Compuesto</span>
                         <div class="card-body-content">
@@ -611,11 +606,9 @@
                         </div>
                         <span class="card-hint">✨ Toca para ver la respuesta real</span>
                     </div>
-                    <!-- Dorso Romántico -->
                     <div class="flip-card-back">
                         <span class="card-header">🌸 Respuesta de mi Corazón</span>
                         <div class="card-body-content">
-                            <!-- CAMBIA ESTA URL POR UNA FOTO DE USTEDES DOS JUNTOS -->
                             <img class="back-photo" src="imagen2.jpg" alt="Nosotros">
                             <p class="romantic-msg">"Que los intereses se acumulan para generar más intereses de manera exponencial. Exactamente como lo nuestro: cada día que pasa capitaliza un amor infinitamente mayor."</p>
                             <span class="academic-note">📌 Tip de examen: ¡Ojo con hacer coincidir la tasa 'i' con el período 'n'!</span>
@@ -625,13 +618,8 @@
                 </div>
             </div>
 
-            <!-- TARJETA 2 -->
             <div class="flip-card" onclick="toggleFlip(this)">
                 <div class="flip-card-inner">
-                    <!-- Frente Académico -->
-                    <div class="flip-card-front">
- <div class="flip-card-inner">
-                    <!-- Frente Académico -->
                     <div class="flip-card-front">
                         <span class="card-header">📈 Concepto 2 ✿ Criterio de la TIR</span>
                         <div class="card-body-content">
@@ -641,11 +629,9 @@
                         </div>
                         <span class="card-hint">✨ Toca para ver la respuesta real</span>
                     </div>
-                    <!-- Dorso Romántico -->
                     <div class="flip-card-back">
                         <span class="card-header">🌸 Respuesta de mi Corazón</span>
                         <div class="card-body-content">
-                            <!-- CAMBIA ESTA URL POR OTRA FOTO DE USTEDES O DE ELLA SONRIENDO -->
                             <img class="back-photo" src="imagen3.jpg" alt="Sonrisa">
                             <p class="romantic-msg">"Se aprueba cuando la TIR supera el límite, porque genera valor neto. Como tú en mi vida: tu sola presencia rompe cualquier métrica y hace que cualquier plan contigo sea hiper viable."</p>
                             <span class="academic-note">📌 Tip de examen: La TIR es la tasa que iguala el VAN a cero.</span>
@@ -655,10 +641,8 @@
                 </div>
             </div>
 
-            <!-- TARJETA 3 -->
             <div class="flip-card" onclick="toggleFlip(this)">
                 <div class="flip-card-inner">
-                    <!-- Frente Académico -->
                     <div class="flip-card-front">
                         <span class="card-header">📋 Concepto 3 ✿ Amortización</span>
                         <div class="card-body-content">
@@ -668,13 +652,11 @@
                         </div>
                         <span class="card-hint">✨ Toca para ver la respuesta real</span>
                     </div>
-                    <!-- Dorso Romántico -->
                     <div class="flip-card-back">
                         <span class="card-header">🌸 Respuesta de mi Corazón</span>
                         <div class="card-body-content">
-                            <!-- CAMBIA ESTA URL POR OTRA FOTO CURIOSA O DE UN ABRAZO -->
                             <img class="back-photo" src="imagen4.jpg" alt="Abrazo">
-                            <p class="romantic-msg">"En el Francés la cuota es fija y el interés baja; en el Alemán la amortización es constante. Lo único constante, fijo e indestructible aquí es el orgullo total que siento al verte tutudiar."</p>
+                            <p class="romantic-msg">"En el Francés la cuota es fija y el interés baja; en el Alemán la amortización es constante. Lo único constante, fijo e indestructible aquí es el orgullo total que siento al verte estudiar."</p>
                             <span class="academic-note">📌 Tip de examen: En el Francés, los intereses se calculan siempre sobre saldo vivo.</span>
                         </div>
                         <span class="card-hint">🌸 Toca para regresar</span>
@@ -682,7 +664,6 @@
                 </div>
             </div>
 
-        </div>
     </section>
 
     <!-- --- GALLERY SECTION ("ACTIVOS FIJOS") --- -->
